@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "if": ["hp tidak menyala", "layar gelap"],
+      "then": "Kemungkinan: IC Power atau baterai bermasalah"
+    },
+    {
+      "id": 2,
+      "if": ["hp cepat panas", "baterai cepat habis"],
+      "then": "Kemungkinan: Baterai bocor atau aplikasi berjalan di background"
+    },
+    {
+      "id": 3,
+      "if": ["hp hang", "layar tidak responsif"],
+      "then": "Kemungkinan: Crash sistem atau memori penuh"
+    },
+    {
+      "id": 4,
+      "if": ["speaker tidak berbunyi"],
+      "then": "Kemungkinan: Kerusakan speaker atau driver audio"
+    },
+    {
+      "id": 5,
+      "if": ["kamera tidak bisa dibuka"],
+      "then": "Kemungkinan: Crash aplikasi kamera atau sensor rusak"
+    },
+    {
+      "id": 6,
+      "if": ["hp tidak bisa charger", "tidak ada respon saat colok charger"],
+      "then": "Kemungkinan: Port charger kotor atau IC charger rusak"
+    }
+  ]
+}

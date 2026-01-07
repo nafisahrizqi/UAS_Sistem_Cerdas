@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sistem Diagnosa Kerusakan HP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="text-align: right; margin-bottom: 0.5rem;">
+            <a href="manual.html" class="btn secondary"
+                style="padding: 0.4rem 0.8rem; font-size: 0.9rem; text-decoration: none;">📖 Panduan</a>
+        </div>
+        <h1>Sistem Diagnosa Kerusakan HP</h1>
+
+        <div class="card">
+            <h3>Pilih Gejala yang Dialami:</h3>
+            <p class="subtitle">Centang semua gejala yang sesuai dengan kondisi HP Anda.</p>
+
+            <div id="symptoms-container" class="symptoms-grid">
+                <!-- Gejala akan dimuat di sini oleh JavaScript -->
+                <p>Memuat gejala...</p>
+            </div>
+
+            <div class="actions">
+                <button id="btn-diagnose" class="btn primary">Diagnosa Sekarang</button>
+                <button id="btn-reset" class="btn secondary">Reset</button>
+            </div>
+        </div>
+
+        <div id="result-box" class="result-box hidden">
+            <h3>Hasil Diagnosa:</h3>
+            <div id="result-content">
+                <p>Silakan pilih gejala lalu klik Diagnosa.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
